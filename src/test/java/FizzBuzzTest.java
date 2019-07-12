@@ -63,4 +63,14 @@ public class FizzBuzzTest {
         //then
         assertEquals(result,"Buzz");
     }
+
+    @Test
+    public void should_return_Buzz_when_convert_given_10(){
+        //given
+        int num = 10;
+        //when
+        String result = new FizzBuzz().convert(num);
+        //then
+        assertEquals(result,"Buzz");
+    }
 }
